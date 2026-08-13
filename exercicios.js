@@ -2,7 +2,7 @@ function testar(nomeExercicio, resultado, esperado) {
   const igual = JSON.stringify(resultado) === JSON.stringify(esperado);
 
     if (igual) {
-console.log(`Correto - ${nomeExercicio}`);
+console.log(`Certo - ${nomeExercicio}`);
           } else {
 console.log(`Errado - ${nomeExercicio}`);
 console.log(`Esperado: ${JSON.stringify(esperado)}`);
@@ -12,7 +12,7 @@ console.log(`Recebido: ${JSON.stringify(resultado)}`);
 
   function contarUnicos(array) {
    const semRepetidos = [...new Set(array)];
-console.log(` Array sem repetição: [${semRepetidos}]`);
+console.log(` - Array sem repetição: [${semRepetidos}]`);
    return semRepetidos.length;
 }
 
