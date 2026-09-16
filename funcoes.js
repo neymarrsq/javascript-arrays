@@ -5,6 +5,6 @@ const cliente = {
     telefone: ["11343243", "23213324"],
     saldo: 200,
     efetuaPagamento:function (valor) {
-        if (valor > this.saldo )
+        if (valor > this.saldo)
     }
 },
